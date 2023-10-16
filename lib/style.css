@@ -1,0 +1,43 @@
+/* Add your styles here */
+
+   .centrado {
+            text-align: center;
+        }
+    .derecha{
+      text-align: right;
+    }
+        .contenedor {
+            max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
+            margin: 0 auto; /* Centra horizontalmente */
+            display: flex; /* Utiliza un contenedor flex para alinear elementos horizontalmente */
+            align-items: center; /* Centra verticalmente los elementos */
+        }
+        .lista {
+            flex: 1; /* La lista toma todo el espacio disponible a la izquierda */
+        }
+        .imagen {
+            flex: 1; /* La imagen toma todo el espacio disponible a la derecha */
+            max-width: 700px;
+            margin-left: 100px; /* Agrega margen a la derecha de la imagen */
+
+        }
+
+
+#plan {
+ background-color: lightblue;
+}
+#titulo
+{
+background-color: lightblue;
+}
+.azul
+{
+background-color: lightblue;
+
+}
+
+
+.estilo-parrafo{
+            font-size: 20px; /* Cambia el tamaño de fuente a 14 píxeles o al tamaño que desees */
+            font-weight: normal;
+}
